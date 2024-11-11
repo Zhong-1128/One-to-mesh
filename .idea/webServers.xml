@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0e6f734f-093b-46de-8785-b4a544f3914b" name="zwldeepl">
+        <fileTransfer rootFolder="/root/" accessType="SFTP" host="connect.westb.seetacloud.com" port="43483" sshConfigId="e12408a9-55d5-4c2b-8762-1b15751a3c3e" sshConfig="root@connect.westb.seetacloud.com:43483 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0cb08e8c-112c-467f-b514-29552f852db3" name="zwldeepl2">
+        <fileTransfer accessType="SFTP" host="connect.westc.gpuhub.com" port="16753" sshConfigId="a023da24-9ada-4e36-ae39-12b2b33445f8" sshConfig="root@connect.westc.gpuhub.com:16753 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
